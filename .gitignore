@@ -1,0 +1,16 @@
+build/
+*.swp
+*.user
+~*
+*.[ao]
+*.lib
+*.lib64
+*.exe
+*.out
+*.tmp
+*.dat
+*.obj
+*.dll
+*.so
+*.dynlib
+
