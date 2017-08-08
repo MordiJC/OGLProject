@@ -5,6 +5,8 @@ project(OGLProject VERSION "1.0.0" LANGUAGES CXX)
 # For installing libraries in correct locations.
 include(GNUInstallDirs)
 
+include(CMake/Utility.cmake)
+
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/CMake/modules")
 
 # Find all required libraries
